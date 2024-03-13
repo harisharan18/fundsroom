@@ -1,0 +1,70 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light gray */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #f36127; /* Zomato orange */
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+.main-image{
+  height: 60px;
+  width: 180px;
+}
+
+.card {
+  background-color: #ffff; /* White */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #2d2d2d; /* Dark gray */
+}
+
+.temperature {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #666666; /* Gray */
+}
+
+.orderId {
+  margin-top: 5px;
+  color: #888888; /* Light gray */
+  font-size: 16px;
+}
