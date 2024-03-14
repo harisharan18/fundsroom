@@ -10,7 +10,7 @@ Follow these steps to set up Food Temperature Tracker on your local machine:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/harisharan18/zomatotempapp.git
+    git clone https://github.com/harisharan18/fundsroom.git
     ```
 
 2. **Navigate to the project folder:**
